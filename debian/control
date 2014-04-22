@@ -1,0 +1,12 @@
+Source: luks
+Section: misc
+Priority: optional
+Maintainer: Alon Swartz <alon@turnkeylinux.org>
+Build-Depends: pyproject-common
+Standards-Version: 3.6.1
+
+Package: luks
+Architecture: any
+Depends: pyproject-common, cryptsetup
+Recommends: lvm2, reiserfsprogs, kbd, lsof
+Description: High-level wrapper for creating and accessing LUKS filesystems
